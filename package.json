@@ -23,7 +23,8 @@
     "inert": "^5.1.0",
     "react": ">= 0.12.0 < 17.0.0",
     "react-dom": "^16.4.1",
-    "react-hyperscript": "^3.2.0"
+    "react-hyperscript": "^3.2.0",
+    "recompose": "^0.27.1"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
