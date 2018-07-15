@@ -14,19 +14,19 @@ const server = Hapi.server({
       plugin:require('hapi-pino'),
       options: { prettyPrint: true },
     },
-  ])
+  ]);
   // 2.
   await server.route([
     {
       method: 'GET',
       path: '/',
       handler: { file: `${__dirname}/index.html` },
-    }
-  ])
+    },
+  ]);
   // 3. 
-  server.start()
+  server.start();
 })();
 
 process.on('unhandledRejection', function outFielder(longBall) {
   console.error(`BIG CATCH: ${longBall}\nYou're outta there...`)
-})
+});
