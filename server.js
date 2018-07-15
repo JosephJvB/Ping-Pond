@@ -29,5 +29,5 @@ const server = Hapi.server({
 
 process.on('unhandledRejection', function outFielder(longBall) {
   console.error(`BIG CATCH: ${longBall}\nYou're outta there...`);
-  process.ExtensionScriptApis(1);
+  process.exit(1);
 });
