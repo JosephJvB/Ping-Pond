@@ -4,7 +4,7 @@
   "description": "Well boy howdy I am glad you have stopped by to read a thing! How is the reading so far? Directionless you say? To shreds you say?",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +20,11 @@
   "dependencies": {
     "hapi": "^17.5.2",
     "hapi-pino": "^4.0.4",
-    "inert": "^5.1.0",
-    "parcel": "^1.9.6"
+    "inert": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.6"
   }
 }
