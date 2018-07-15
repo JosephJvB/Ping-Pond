@@ -9,6 +9,7 @@ Yeah alright, I wanna do a lil done thing with random ripples on.
 ### MVP:
 
 ? Do I try to make this with Hapi and sockets ? 
+> Use a Hapi server, add sockets later :) ps use redux persist, I dare ya
 
 1. Canvas webpage when you click a ripple appears in a random spot.
 2. That ripple expands, loses opacity, then disappears 🌀
