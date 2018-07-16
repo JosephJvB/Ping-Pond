@@ -16,6 +16,8 @@ module.exports = compose(
       pingPoint: {}
     }),
     {
+      // perfectly cromulent function names
+      // https://www.youtube.com/watch?v=NWC-20TLbMo
       letsPlayPingball: () => (event) => {
         event.persist() // react insists that you persist to resist losing synthetic events
         const { clientX: x, clientY: y } = event
@@ -23,6 +25,7 @@ module.exports = compose(
           pingPoint: { x, y, radius: 10 }
         }
       },
+      // https://www.youtube.com/watch?v=FcxsgZxqnEg
       embiggen: ({
         pingPoint: {
           radius,
@@ -44,7 +47,7 @@ module.exports = compose(
       }
     }
   ),
-)(function createPond({
+)(function renderPond({
   embiggen,
   letsPlayPingball,
   pingPoint: { x, y, radius, }

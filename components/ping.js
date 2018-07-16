@@ -6,7 +6,12 @@ module.exports = function renderPing({
   x,
   y,
 }) {
-  setTimeout(embiggen, 10) // hacky lifecycle imposter
+  /*
+    hacky lifecycle imposter
+    it sets state, causes re-render of Ping -> calls embiggen again
+    probably something will go horribly wrong as a result 🤷‍
+  */
+  setTimeout(embiggen, 10);
   return h('circle', {
     cx: x,
     cy: y,
