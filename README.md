@@ -16,4 +16,12 @@ Yeah alright, I wanna do a lil done thing with random ripples on.
 3. Then make actual water spew out of the users browser 💦
 4. Then make an alethiometer that tells the truth to those smart enough to read it 🔑
 
-Oh and I'm gonna do it from scratch, real MacGyver shizz 😤
+### 16/7
+So I think it was this morning that I woke up and decided a mini-golf game would be way cooler ⛳️ and Im pretty sure the reason I didnt drop everything and chase that was me being scared about hacky animation using svgs
+- having a ping grow small amounts on a tiny interval looks smooth enough 👀
+- use 'drag' event to calculate player-swing: { power, direction } and make a ball move based off of that. ye-haw
+
+- Still do more with pings first, maths around screen-y determining radius etc
+- oh and keeping pings within a pong would be VERY important to try to hack out ball-bounce mechanics...
+
+So this message is a yes, do mini-golf but not yet
