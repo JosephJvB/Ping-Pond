@@ -23,7 +23,7 @@ module.exports = compose(
       }
     }
   ),
-)(function createPond({
+)(function renderPond({
   letsPlayPingball,
   pingPoint
 }) {
